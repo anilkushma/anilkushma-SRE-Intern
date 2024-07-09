@@ -38,9 +38,9 @@ Once deployed, WordPress can be accessed using the external IP of the LoadBalanc
  
 ```sh
 kubectl get services
-'''
+```
 
 if ip is not shown  than we need use port-forward 
-'''sh
+```sh
 kubectl port-forward svc/wordpress 9000:80
-'''
+```
